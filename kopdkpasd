@@ -1,0 +1,2151 @@
+[33mcommit 624fb58ad893a29cdcbd1173e7db731a9d403971[m[33m ([m[1;36mHEAD -> [m[1;32m12.x[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/12.x[m[33m)[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Fri Jul 11 19:25:51 2025 +1000
+
+    Add Vite 7 support (#6639)
+    
+    * Add Vite 7 support
+    
+    * Lock Vite version
+
+[33mcommit a52070f6377faff3493a8be5514427b6baac8160[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Jul 8 15:10:59 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 4ab121576ed4f28dbeba9e58c949552b3913d60a[m[33m ([m[1;33mtag: v12.1.0[m[33m)[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Thu Jul 3 16:32:07 2025 +0300
+
+    [12.x] Fix type casting for environment variables in config files (#6637)
+    
+    * Update app.php
+    
+    * Update cache.php
+    
+    * Update database.php
+    
+    * Update logging.php
+    
+    * Update mail.php
+
+[33mcommit dd473eaddc824aeada037f0dc702a3b68a51946c[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jul 2 18:42:49 2025 -0400
+
+    fix
+
+[33mcommit 9a177b073b00ed4873e8d1d74c4b186ee04be21f[m
+Author: Jonathan Goode <u01jmg3@users.noreply.github.com>
+Date:   Sat Jun 28 18:24:37 2025 +0100
+
+    Change to hyphenate prefixes and cookie names (#6636)
+
+[33mcommit 96164d15c04c775d8899fe6ce6575f4ecc2b86f5[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Mon Jun 23 02:27:42 2025 +0300
+
+    Reorder environment variables in phpunit.xml for logical grouping (#6634)
+
+[33mcommit 57b467f1662a3d79fdd3df13d8c3680578934e84[m
+Author: laserhybiz <100562257+laserhybiz@users.noreply.github.com>
+Date:   Wed Jun 18 15:52:30 2025 +0300
+
+    disable nightwatch in testing (#6632)
+
+[33mcommit f7992fabd1ebbf2f6fec49d6aafd7e29ff18e446[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Jun 17 17:13:09 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 78600b89b7ffe70fce639b3c8af2b4b365856ce0[m[33m ([m[1;33mtag: v12.0.11[m[33m)[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Jun 10 15:10:00 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 26ea0b697c18b0653e71795e7858801dbb25a242[m[33m ([m[1;33mtag: v12.0.10[m[33m)[m
+Author: Aluísio Pires <88967089+Aluisio-Pires@users.noreply.github.com>
+Date:   Mon Jun 9 11:16:34 2025 -0300
+
+    [12.x] Fix: Add void return type to withMiddleware and withExceptions to satisfy Rector analysis (#6628)
+
+[33mcommit 2f8a5bf10d1db79740134f0fbb96bbb19c76a087[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Mon Jun 9 17:04:36 2025 +0300
+
+    Reduce redundancy and keeps the .gitignore file cleaner (#6629)
+
+[33mcommit cd854afd59581e1a40b1023646467371b4bab98a[m
+Author: Khaled Huthaily <khaledenglish@yahoo.com>
+Date:   Fri Jun 6 09:09:38 2025 -0600
+
+    fix alphabetical order (#6627)
+    
+    move `resend` before `ses`
+
+[33mcommit 047ed5add8cea8d36147b10cdc02a1a59c5e3495[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue May 27 16:03:59 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 66578278ee481c06dffb00da05910b2f99818154[m[33m ([m[1;33mtag: v12.0.9[m[33m)[m
+Author: MohammadRezaei <135225767+mohammadRezaei1380@users.noreply.github.com>
+Date:   Mon May 26 20:47:33 2025 +0330
+
+    Enhance .gitignore to exclude common OS and log files (#6619)
+    
+    * refactor(gitignore): Update .gitignore to exclude OS-generated and log files
+    
+    * Update .gitignore
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 1c027454d9a1522b9e2ad86f41bb0b6980f2faf3[m
+Author: Wogan May <225550+woganmay@users.noreply.github.com>
+Date:   Mon May 19 19:03:18 2025 +0200
+
+    Minor language update (#6615)
+    
+    PhpStorm's Natural Language module recommends this change to a countable noun, which happens to be exactly 6 characters long, so as to not affect the overall length of the line, while still making it ever-so-slightly more parseable.
+
+[33mcommit 3731b09a43d40de17dfd3776a30754d4df1cdcbe[m
+Author: Martin Bean <martin@martinbean.co.uk>
+Date:   Thu May 15 16:11:00 2025 +0100
+
+    Add JSON Schema to package.json (#6613)
+    
+    Co-authored-by: Martin Bean <martinbean@users.noreply.github.com>
+
+[33mcommit 468d94583612c416bb9f113c9ef235a8f29f579b[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Thu May 15 18:09:47 2025 +0300
+
+    remove apc (#6611)
+
+[33mcommit 076415262619e367cff906276809369adf632512[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue May 13 14:47:36 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 2d8f562092a376cf80d07e3e4583bb8463bb51bf[m[33m ([m[1;33mtag: v12.0.8[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun May 11 20:55:57 2025 -0500
+
+    remove apc
+
+[33mcommit f6e4638ee6ca1cd40aa7c56311d89ea3d91a24f8[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Wed Apr 16 13:37:18 2025 +0200
+
+    Clean up URL formatting in README (#6601)
+
+[33mcommit 126a6638bd9d559d790ecfed9434beac5946a5da[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Apr 15 15:46:02 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit e654bf366241d3777e6215d0283224693c61f971[m[33m ([m[1;33mtag: v12.0.7[m[33m)[m
+Author: Josh Cirre <joshcirre@gmail.com>
+Date:   Tue Apr 15 08:24:16 2025 -0700
+
+    Premium partner changes (#6599)
+
+[33mcommit 43ad1946fc85a82ebe1ea124c646e91c38cacc4d[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Fri Apr 11 23:21:14 2025 +0800
+
+    Add `composer run test` command (#6598)
+    
+    This prevents the application from running tests with cached config.
+
+[33mcommit fc42b7132ae810a49b24fe599fe4a26f0c974578[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Apr 8 18:50:46 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 7a7015534e6cdde94a8d9e224b98a20735b11491[m[33m ([m[1;33mtag: v12.0.6[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Apr 8 13:50:02 2025 -0500
+
+    use in memory database by default
+
+[33mcommit 14cec1e9a35f03bbfb7826a212ffbac29fe0fc1e[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Apr 8 18:47:30 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 6087e4fd3b7d5949297207d197054356a3f26638[m[33m ([m[1;33mtag: v12.0.5[m[33m)[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Wed Apr 2 19:34:19 2025 +0200
+
+    [12.x] Update `config/mail.php` to match the latest core configuration (#6594)
+    
+    * Update config/mail.php to match the latest core configuration
+    
+    * Update mail.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit f13915178de9c606053d5ab706a8f558befeacf6[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Apr 1 14:59:10 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit f308c84b10fb0b620bb45f46d8956f9d99aeae03[m[33m ([m[1;33mtag: v12.0.4[m[33m)[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Mon Mar 31 16:06:07 2025 +0200
+
+    Bump vite from 6.2.3 to 6.2.4 (#6590)
+
+[33mcommit 4d9e70e45612bc16045413d2e777aeb657522978[m
+Author: Abdelmajid Aouby <56534840+abdel-aouby@users.noreply.github.com>
+Date:   Thu Mar 27 18:25:28 2025 +0100
+
+    Bump vite from 6.0.11 to 6.2.3 - Vulnerability patch (#6586)
+
+[33mcommit 979202df1c2fe3547709a20a59a84bcefaf15f4f[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Mar 18 14:01:53 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 4d6a75b0ea02fef80878584191c5f8fbfd136e83[m[33m ([m[1;33mtag: v12.0.3[m[33m)[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Mon Mar 17 22:14:58 2025 +0200
+
+    [12.x] Remove Unnecessarily @source (#6584)
+    
+    I think that the `@source` for `.vue` is not important because if we need to use Vue we will use the Vue starter kit
+
+[33mcommit 8402e5b6a253699a30c11491424a275f33c83bac[m
+Author: Abdelmajid Aouby <56534840+abdel-aouby@users.noreply.github.com>
+Date:   Mon Mar 10 18:22:43 2025 +0100
+
+    Bump axios from 1.7.9 to 1.8.2 (#6572)
+
+[33mcommit 3549033ac7df3757d068b1eec339394514afbb52[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Mon Mar 10 19:07:54 2025 +0200
+
+    [12.x] Refactor: Structural improvement for clarity (#6574)
+    
+    * Structural improvement for clarity
+    
+    * Update logging.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 7d1dcad7712eae57b9cb336294f6ae4b67ae6ca1[m
+Author: Ahmed Alaa <92916738+AhmedAlaa4611@users.noreply.github.com>
+Date:   Fri Mar 7 17:13:31 2025 +0200
+
+    Improves clarity in app.css file (#6569)
+
+[33mcommit c1f2608e692668f3afeda4aba9418929e60c849d[m
+Author: Anders Jenbo <anders@jenbo.dk>
+Date:   Wed Mar 5 17:07:53 2025 +0100
+
+    Remove reverted change from CHANGELOG.md (#6565)
+
+[33mcommit 27348b7c9030388a2db7be57c3775fc9fd2a1ced[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Mar 4 16:07:15 2025 -0600
+
+    remove change for now
+
+[33mcommit 661e56994d7b159c0525a894006246c50abb57b9[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Mar 4 16:28:45 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 139067230229d16805cf5bd865acb8a9b59ab6b9[m[33m ([m[1;33mtag: v12.0.2[m[33m)[m
+Author: Anders Jenbo <anders@jenbo.dk>
+Date:   Tue Mar 4 16:48:56 2025 +0100
+
+    feat: add type hints for $this in routes/console.php (#6559)
+    
+    * feat: add type hints for $this in routes/console.php
+    
+    * Update console.php
+    
+    * Update console.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 540728ed96d84896c6d8c3ad263d64af2db831af[m
+Author: Nico Deblauwe <nico@bluepundit.eu>
+Date:   Fri Feb 28 01:27:31 2025 +0700
+
+    Switch to `php artisan test` to make it work out of the box (#6555)
+
+[33mcommit bd44e4a0ce6e767a10c9b55a61feaaa255f1c75b[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Mon Feb 24 15:41:22 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit c7e8fc4fda85fdff06f04239c64ae4f7df98f933[m[33m ([m[1;33mtag: v12.0.1[m[33m)[m
+Author: Pieter Willekens <git@pataar.nl>
+Date:   Mon Feb 24 16:40:17 2025 +0100
+
+    [12.x] prefer stable stability (#6548)
+    
+    This feels as a leftover from the dev branch. But if I'm wrong, feel free to close this PR.
+
+[33mcommit fd51890716808d984eb467cc668b5b3a247161da[m[33m ([m[1;33mtag: v12.0.0[m[33m)[m
+Author: StyleCI Bot <bot@styleci.io>
+Date:   Sun Feb 23 22:49:41 2025 +0000
+
+    Apply fixes from StyleCI
+
+[33mcommit 1b8506b0a06807ef2354cd464762e3169824942e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Feb 23 16:49:25 2025 -0600
+
+    update fonts
+
+[33mcommit ab101086b8fdcd669cd28d179a5c7b373ac47986[m
+Author: Tony Lea <tony@devdojo.com>
+Date:   Sat Feb 22 11:55:05 2025 -0500
+
+    Adding new laravel welcome (#6546)
+
+[33mcommit 2a19af7a6dc709ec7c88d4aabbe01045aa553218[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 29037b32 ecf6de49
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 20 14:53:58 2025 -0600
+
+    Merge branch '11.x'
+
+[33mcommit ecf6de4992d70dd37c21676be6b8ba4743151e63[m[33m ([m[1;31morigin/11.x[m[33m)[m
+Author: James King <james@jamesking.dev>
+Date:   Tue Feb 18 15:12:59 2025 +0000
+
+    Don't set CACHE_PREFIX to empty string by default (#6542)
+    
+    Setting this to an empty string by default overrides the default behaviour of using APP_NAME in the cache config file, this leads to unintended consequences if this has been blindly copied into the app's main .env file without setting a value
+
+[33mcommit 29037b320b343fa8e9b5616b7231d67763f9e9ef[m
+Merge: 8c396f12 79a94de4
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Sat Feb 15 12:31:15 2025 +0800
+
+    Merge branch '11.x'
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit 8c396f12c8aba4f511d73a0d6c28acd05e0e2334[m
+Author: Jason McCreary <jason@pureconcepts.net>
+Date:   Fri Feb 14 10:16:25 2025 -0500
+
+    Re-add nunomaduro/collision (#6539)
+    
+    * Re-add nunomaduro/collision
+    
+    * Update composer.json
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 79a94de4dd55e151987a1a7c69a161d3666fa889[m
+Author: Andrew Brown <browner12@gmail.com>
+Date:   Wed Feb 12 10:13:57 2025 -0600
+
+    remove `APP_TIMEZONE` environment variable (#6536)
+    
+    force the timezone to be defined in the config file, rather than deferring to an environment variable.
+    
+    IMO having the timezone dependent on an environment variable adds an unnecessary amount of risk for your average user who may be unaware of the effects from changing this value.
+    
+    some scenarios where this could cause issues:
+    
+    - devs set this value to their local timezone on their local dev machines, and they are writing `Carbon:create()` commands or similar that now are working only under the assumption of that timezone value
+    - you have multiple production servers setup across the country and each has their own timezone value according to their location, but they all talk to a central database. now the database is loaded with mixed timezone variables
+    
+    having an explicit value defined once for the application removes these risks.
+    
+    reverts part of #6188
+
+[33mcommit 6f1ebe26a49dc76cd922f7dde481acc56ab5e6f8[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Wed Feb 12 09:50:55 2025 +0800
+
+    chore: Update `update-changelog.yml`
+
+[33mcommit 55738c0c4e17e6eeff52f5486293e5f5e6be511c[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 11 11:56:59 2025 -0600
+
+    add REDIS_PERSISTENT env var
+
+[33mcommit a8b5e075228a28344876ccedd09bc0ba850b621c[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Tue Feb 11 21:37:43 2025 +0800
+
+    chore: update changelog CI permission
+
+[33mcommit cf5aed8c2e7fe9ae038e76ccd0ac8de1cdc3dded[m
+Author: Anders Jenbo <anders@jenbo.dk>
+Date:   Wed Feb 5 12:01:25 2025 +0100
+
+    Improve static analysis by adding type hints for $app in artisan and public/index.php (#6531)
+    
+    * feat: add type hints for $app in artisan and public/index.php
+    
+    Added PHPDoc type hints for the $app variable to improve static analysis
+    support in PHPStan and PHPStorm. This prevents tools from incorrectly
+    flagging the variable and enhances developer experience.
+    
+    No functional changes; only improves code readability and IDE support.
+    
+    * Update artisan
+    
+    * Update index.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit d24cb962ce8cf59ba4cb1a0a061bd499a5050d11[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Sat Feb 1 19:37:08 2025 +0800
+
+    [12.x] Update skeleton dependencies (#6532)
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit c6dcaf788c63387f6086cae6cba974f2b89e43a9[m
+Author: Ngô Quốc Đạt <datlechin@gmail.com>
+Date:   Sat Feb 1 00:34:00 2025 +0700
+
+    Upgrade to Tailwind CSS v4.0 (#6523)
+    
+    * Upgrade to Tailwind CSS v4.0
+    
+    * Upgrade to Tailwind CSS 4
+    
+    * Upgrade to Tailwind CSS 4
+    
+    * Upgrade to Tailwind CSS 4
+    
+    * Upgrade to Tailwind CSS 4
+    
+    * Upgrade to Tailwind CSS v4.0
+    
+    * remove compatible styles
+    
+    Co-authored-by: Julius Kiekbusch <contact@julius-kiekbusch.de>
+    
+    * wip
+    
+    ---------
+    
+    Co-authored-by: Julius Kiekbusch <contact@julius-kiekbusch.de>
+
+[33mcommit 9edc9aad80f22bc5fb49ec211b5b997b6b67aa15[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Jan 28 16:01:29 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit e417ebc95d76da3cbee761f0d2b77aebdf52cdc9[m[33m ([m[1;33mtag: v11.6.1[m[33m)[m
+Author: Sakari Cajanus <scajanus@gmail.com>
+Date:   Fri Jan 24 22:55:06 2025 +0200
+
+    Remove extra hourly() method in console.php (#6525)
+
+[33mcommit 60269b27054a572c21b6fe6e38b42df9d95396b6[m
+Merge: 1f12f83d 4760fcd6
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Fri Jan 24 19:30:01 2025 +0800
+
+    Merge branch '11.x'
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit 4760fcd6c5a48c7012b7609048be5c5f9e52ae33[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Thu Jan 23 22:05:06 2025 +0800
+
+    Sync `session.lifetime` configuration (#6522)
+    
+    See https://github.com/laravel/framework/blob/066b740f14461bb1a793ebb9742321ee00974060/config/session.php#L35
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit 1f12f83de99d9d0874bd0b58b3c3163a096b3ec3[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Thu Jan 23 15:18:52 2025 +0800
+
+    Update composer.json
+
+[33mcommit c452e15d846c6d20d4e8b108b66797744bf38b62[m
+Author: laserhybiz <100562257+laserhybiz@users.noreply.github.com>
+Date:   Wed Jan 22 18:46:57 2025 +0200
+
+    Update vite dependencies (#6521)
+
+[33mcommit 3dd0323ef5069196a1743d943b66f1ae6ea4195d[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Jan 21 15:08:46 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit 91b409649007e77bb6f42f0db31641e2a2f9fd13[m[33m ([m[1;33mtag: v11.6.0[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Jan 21 09:03:57 2025 -0600
+
+    update filesystem config
+
+[33mcommit f15301d18db084e131a0ce8d3e434ae521f00ee3[m
+Author: TheCodeholic <zurasekhniashvili@gmail.com>
+Date:   Wed Jan 15 00:03:16 2025 +0400
+
+    Preserve X-Xsrf-Token header from .htaccess (#6520)
+    
+    * Preserve X-Xsrf-Token header from .htaccess
+    
+    Preserve X-Xsrf-Token header for session based authentication when building API in Laravel
+    
+    * Update .htaccess
+    
+    * Update .htaccess
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit d4e9385fbbe4f25411554708d678ebe4b7747351[m
+Author: taylorotwell <463230+taylorotwell@users.noreply.github.com>
+Date:   Tue Jan 14 15:59:58 2025 +0000
+
+    Update CHANGELOG
+
+[33mcommit f9bedb320cac1c77d78052c1355ea37709cd464b[m[33m ([m[1;33mtag: v11.5.1[m[33m)[m
+Author: Julius Kiekbusch <contact@julius-kiekbusch.de>
+Date:   Fri Jan 10 21:53:27 2025 +0100
+
+    Fix tailwindclass (#6518)
+
+[33mcommit cb7ab6170b7b71174743f5556a599c97cee067ad[m
+Author: Trevor Varwig <varcorb@gmail.com>
+Date:   Thu Jan 9 14:14:56 2025 -0600
+
+    fix css whitespace invalid-calc (#6517)
+
+[33mcommit 658a49a19e98a6059a543be7564d39dc2e6970e0[m
+Author: Mathias Grimm <mathiasgrimm@gmail.com>
+Date:   Tue Jan 7 21:04:38 2025 -0300
+
+    Adding PHP 8.4 to the tests matrix (#6516)
+
+[33mcommit f08e4f8bc529ba913b6cdb6a8e3bc7657189d7dc[m
+Author: Tim Joosten <Tjoosten@users.noreply.github.com>
+Date:   Mon Jan 6 15:52:53 2025 +0100
+
+    Update .gitignore to not ignore auth.json lan file. (#6515)
+
+[33mcommit 295bdfeee961c760425a392942273febe1eb6cc9[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Fri Dec 27 09:04:49 2024 +0800
+
+    fix merge conflict
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit 7e3c5bc23a62ef631fb5e65949eed848dea8ef63[m
+Merge: 92720a57 657070ea
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Fri Dec 27 09:03:41 2024 +0800
+
+    Merge branch '11.x'
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit 657070ea8a95ec269d0ed4c801cead04976a871a[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Dec 17 18:27:38 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit eb8085cf77bc5165d1af0b90bd9cdfb406d65299[m[33m ([m[1;33mtag: v11.5.0[m[33m)[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Fri Dec 13 21:57:40 2024 +0800
+
+    [11.x] Update `config/mail.php` with supported configuration (#6506)
+    
+    Signed-off-by: Mior Muhammad Zaki <crynobone@gmail.com>
+
+[33mcommit a39cb7cf585798485e3876acf3c6e84ab3f64f1e[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Dec 10 16:20:39 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 0993d09dc8206d0933628074036427344be16fc5[m[33m ([m[1;33mtag: v11.4.0[m[33m)[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Tue Dec 3 09:11:41 2024 +1100
+
+    Upgrade to Vite 6 (#6498)
+
+[33mcommit 8b67958f49054f3e6c9b61d2e0b0a1e5323f30f4[m
+Author: Pavel <DvDty@users.noreply.github.com>
+Date:   Thu Nov 21 16:54:46 2024 +0200
+
+    Narrow down array types (#6497)
+
+[33mcommit 980ef58fdda4db1fca4b1c8f36cf404f69d8ab2f[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Nov 19 20:51:59 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 2eacb3d0f08a401ff70107c7a617e27478fb576d[m[33m ([m[1;33mtag: v11.3.3[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Nov 18 08:18:44 2024 -0600
+
+    wip
+
+[33mcommit 3b146114e2c5a494f1f0a74aaeedf97511ac1964[m
+Author: Andrew Brown <browner12@gmail.com>
+Date:   Mon Nov 18 08:18:13 2024 -0600
+
+    match `HidesAttributes` docblocks (#6495)
+    
+    the docblock in `HidesAttributes` was updated in #42512, so this child class should be using the same.
+    
+    otherwise PHPStan throws a "PHPDoc type array<int, string> of property App\Models\User::$hidden is not covariant with PHPDoc type list<string> of  property Illuminate\Database\Eloquent\Model::$hidden" error
+
+[33mcommit 3622d746fde67ebaff3dd3fdde3676599434692f[m
+Author: Perry van der Meer <11609290+PerryvanderMeer@users.noreply.github.com>
+Date:   Thu Nov 14 16:30:38 2024 +0100
+
+    Update composer.json (#6490)
+
+[33mcommit bc03c8d748da8a49e10d0ea405c438497fa8cfce[m
+Author: Emran Ramezan <Alch3m1st@duck.com>
+Date:   Thu Nov 7 21:55:36 2024 +0000
+
+    Update .gitignore (#6486)
+    
+    * Update .gitignore
+    
+    Added Panic's Nova Code Editor `dot` files
+    
+    * Update .gitignore
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 70f437b6fc7801ef11d6627d9ab48d698ffe5f26[m
+Author: Vaggelis Yfantis <me@octoper.me>
+Date:   Sun Nov 3 23:04:06 2024 +0200
+
+    Add $schema property to composer.json (#6484)
+
+[33mcommit 2e6ac2c9d2e29d1631ad0c44d25ef2b1b5663211[m
+Author: Amir Mohammad Babaei <amirbabaei.dev@gmail.com>
+Date:   Wed Oct 23 16:32:59 2024 +0330
+
+    Inconsistency in Github action names (#6478)
+    
+    * Update pull-requests.yml
+    
+    * Update issues.yml
+    
+    * Update update-changelog.yml
+
+[33mcommit 61fec7b8981c8d4dec3351574a902701f2489d3c[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Oct 22 14:23:02 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 82a83a698134278da35d67b102f3e985b2d2502b[m[33m ([m[1;33mtag: v11.3.2[m[33m)[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Mon Oct 21 14:59:43 2024 +0100
+
+    Fixes pail timing out after an hour (#6473)
+
+[33mcommit 1c880c36e2fbb697a6892a469aebbea37fe096dc[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Oct 15 20:04:27 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit f9f5e3c3ae0b9e536ddc690aae14032557956449[m[33m ([m[1;33mtag: v11.3.1[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Oct 15 15:03:43 2024 -0500
+
+    wip
+
+[33mcommit ea60b55f9c157fc5717efedc8269868033d5bb8e[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Oct 15 14:29:07 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 6c3d2fb4a0182355abc90972315a8caaab5aa435[m[33m ([m[1;33mtag: v11.3.0[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Oct 14 09:25:43 2024 -0500
+
+    adjust colors
+
+[33mcommit 2f17c9764108cac1c1799c21ac7ecb3fa8a21c4e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Oct 14 09:22:52 2024 -0500
+
+    remove retries
+
+[33mcommit 0973f0a3365bb4a4611cbe1a14a0eaffc2a9dced[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Oct 11 16:57:35 2024 -0500
+
+    add restart tries
+
+[33mcommit b378ce946a05b5ab80776c3b5e40fa84751084bd[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Oct 10 14:21:56 2024 -0500
+
+    Add Tailwind, "composer run dev" (#6463)
+    
+    This PR does two things...
+    
+    First, it adds a basic Tailwind configuration out of the box. This lets you start using Tailwind immediately without installing any starter kit. Useful if you just want to mess around or build things from scratch.
+    
+    Second, it adds a composer run dev script, which starts php artisan serve, php artisan queue:listen --tries=1, php artisan pail (now a dev dependency by default), and npm run dev all in one command, with color coded output in the terminal using concurrently.
+
+[33mcommit a61a6361ed7028c21a4a6b2bf4ce41f5b08e4499[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Oct 8 16:08:41 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 49bceac41ff34dd6df12760041ead73f8888dc6c[m[33m ([m[1;33mtag: v11.2.1[m[33m)[m
+Author: Dominik Koch <dominik@koch-bautechnik.de>
+Date:   Tue Oct 8 15:34:41 2024 +0200
+
+    Update welcome.blade.php to add missing alt tag (#6462)
+    
+    Every image should have an alt tag for accessibility reasons, but this one did not, so this commit aims to add the missing one.
+
+[33mcommit c9c8fb9ee73266b2bb4183603b553b2ee9030252[m
+Author: Punyapal Shah <53343069+MrPunyapal@users.noreply.github.com>
+Date:   Thu Sep 19 16:52:19 2024 +0530
+
+    Refactor User model to use HasFactory trait and add type hint for UserFactory (#6453)
+
+[33mcommit 6e71b994e7a249c5f932b342c2d69c4e3591696f[m
+Author: Amdadul Haq <amdadulhaq781@gmail.com>
+Date:   Wed Sep 18 22:21:54 2024 +0600
+
+    Update composer.json (#6454)
+
+[33mcommit e0421a4ec94be0044217e83b9c839676337139ae[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Wed Sep 11 21:34:45 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit bab16982dd64e3f58bf2242d5ad0585f9a331e01[m[33m ([m[1;33mtag: v11.2.0[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Sep 11 15:12:40 2024 -0500
+
+    private files (#6450)
+
+[33mcommit 168e685936c3a78cccddae45c14a5103b9876901[m
+Author: Fahad Khan <fahadkhan1740@outlook.com>
+Date:   Fri Sep 6 00:04:18 2024 +0400
+
+    Update .gitignore with Zed Editor (#6449)
+
+[33mcommit f0a12c6600d5c16a73e2bd5ce474ee1400af480b[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Sep 3 15:32:25 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit c12fd185e64b6fd652243e06f290f438164ddde5[m[33m ([m[1;33mtag: v11.1.5[m[33m)[m
+Author: laserhybiz <100562257+laserhybiz@users.noreply.github.com>
+Date:   Wed Aug 14 17:36:13 2024 +0300
+
+    Update package.json (#6440)
+
+[33mcommit 6ebd9fed8a1724464e9c1138d94c882d12dfd61b[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Jul 16 14:40:46 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 2897a49c65a37e385d25d6606d8258e1afb39774[m[33m ([m[1;33mtag: v11.1.4[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Jul 16 09:39:18 2024 -0500
+
+    add sqlite options
+
+[33mcommit 4ef5e2f89e987f84b33b62f79e96485dcaa8f209[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Jul 9 16:01:01 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 69917ece2c1ad709b9dafb0ee7b4ee85b0432530[m[33m ([m[1;33mtag: v11.1.3[m[33m)[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Thu Jul 4 07:03:03 2024 +1000
+
+    [11.x] Comment maintenance store (#6429)
+
+[33mcommit 3b239422d8657df11fe0c0092525efe9ecd3ec45[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Jul 2 18:12:20 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 47fb90a8caebb370fb6394cbedaeea5f15fdd0e3[m[33m ([m[1;33mtag: v11.1.2[m[33m)[m
+Author: StyleCI Bot <bot@styleci.io>
+Date:   Thu Jun 20 14:41:46 2024 +0000
+
+    Apply fixes from StyleCI
+
+[33mcommit 3fd8dd85397a6c1e91c541ad08164309569ab0b3[m
+Author: Nicolas Hedger <649677+nhedger@users.noreply.github.com>
+Date:   Thu Jun 20 16:41:28 2024 +0200
+
+    Expose lock table name (#6423)
+    
+    * Expose lock table name
+    
+    * Update cache.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 3b3f9f13faab1753e7b7cad6a0e7098e54c8199f[m
+Author: taylorotwell <taylorotwell@users.noreply.github.com>
+Date:   Tue Jun 4 13:56:47 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit ad38e564ac871505e2fa829004cc45848b8b85e5[m[33m ([m[1;33mtag: v11.1.1[m[33m)[m
+Author: maru0914 <56859729+maru0914@users.noreply.github.com>
+Date:   Tue Jun 4 22:28:32 2024 +0900
+
+    Format the first letter of `drivers` to lowercase (#6413)
+
+[33mcommit b6d55576d1c9fcf15adebc76bcb6d8cb476a4418[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue May 28 16:01:52 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 5d86ab4b729e23dcdaa3be2c2121c06d0677be61[m[33m ([m[1;33mtag: v11.1.0[m[33m)[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue May 28 17:01:13 2024 +0100
+
+    Removes `spatie/laravel-ignition` (#6406)
+
+[33mcommit 76510a70c5b13b3facb2300ea7b1787342a7e0b0[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue May 21 18:12:17 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit b651fb109c3e3a58e695cc0c0f332f370e648306[m[33m ([m[1;33mtag: v11.0.9[m[33m)[m
+Author: Ricardo Čerljenko <ricardo@lloyds-digital.com>
+Date:   Thu May 16 23:36:21 2024 +0200
+
+    updated mail config (#6402)
+
+[33mcommit 564e04381f0c6d4dacf7e5d3e2c51f4ddb224c66[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue May 14 15:40:18 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 043a454ab85e3bbfde1069da55a59d4acde68080[m[33m ([m[1;33mtag: v11.0.8[m[33m)[m
+Author: Prince John Santillan <60916966+princejohnsantillan@users.noreply.github.com>
+Date:   Tue May 14 01:07:32 2024 +0800
+
+    Add .phpactor.json to .gitignore (#6400)
+    
+    Laravel Herd adds this file when opening up Tinkerwell from Herd
+
+[33mcommit b3df041d860233e3d1cd325fea41abe6564e894c[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue May 7 14:18:25 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 4b1588713d05830f7cdf88159fa3739831d167cb[m[33m ([m[1;33mtag: v11.0.7[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri May 3 12:16:26 2024 -0500
+
+    add resend
+
+[33mcommit e7cc5778a0547886a498c2cacdfe2b909675730d[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri May 3 12:14:37 2024 -0500
+
+    resend
+
+[33mcommit cf0b40b878b5068ed710ee39a0e1d090a1f06d60[m
+Author: Jonathan Goode <u01jmg3@users.noreply.github.com>
+Date:   Fri Apr 19 16:12:29 2024 +0100
+
+    Remove obsolete driver option (#6395)
+
+[33mcommit 0259455a1201b9019615f8bd1b1af6470747a4d5[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Apr 9 15:50:21 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 3cb22426e1d78c69b7b6630b88a02d9934cac29d[m[33m ([m[1;33mtag: v11.0.6[m[33m)[m
+Author: Jonathan Goode <u01jmg3@users.noreply.github.com>
+Date:   Tue Apr 9 15:13:45 2024 +0100
+
+    Add missing roundrobin transport driver config (#6392)
+
+[33mcommit 708fdb1a36fd4567a2b7fd7557436536005fe4d2[m
+Author: Viktor Szépe <viktor@szepe.net>
+Date:   Wed Apr 3 09:28:26 2024 +0200
+
+    Fix PHPUnit constraint (#6389)
+    
+    there was a BC break in PHPUnit https://github.com/sebastianbergmann/phpunit/issues/5690
+
+[33mcommit 9e2d6f6498fcaab4dcd44b101f22f9e366c3275b[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Apr 2 14:38:02 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 58baff2c70144c7cd4c04eecb51fee5a24e873a8[m[33m ([m[1;33mtag: v11.0.5[m[33m)[m
+Author: Phil Bates <philbates35@gmail.com>
+Date:   Tue Mar 26 17:50:37 2024 +0000
+
+    [11.x] Use PHPUnit v11 (#6385)
+    
+    Everythings works with no changes needed.
+    
+    See:
+    * https://phpunit.de/announcements/phpunit-11.html
+    * https://github.com/sebastianbergmann/phpunit/blob/11.0.0/ChangeLog-11.0.md
+
+[33mcommit 93f660c173d94aac52d84a28bdc778e83343e53f[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Mar 26 16:48:14 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 441845d88dfc2a4fbf59f1e57d48889c8de664bb[m[33m ([m[1;33mtag: v11.0.4[m[33m)[m
+Author: Michael Nabil <46572405+michaelnabil230@users.noreply.github.com>
+Date:   Fri Mar 15 16:03:35 2024 +0200
+
+    [11.x] Fix on hover animation and ring (#6376)
+    
+    Fix the card of the Vibrant Ecosystem when the mouse hovers over the card
+
+[33mcommit 6f5d9b8888e9919ab966fae69a790a252c0c56f8[m
+Author: Dries Vints <dries@vints.be>
+Date:   Fri Mar 15 15:02:06 2024 +0100
+
+    Fix retry_after to be an integer (#6377)
+
+[33mcommit eb8f9dc2d661796a141b104c7f04dbde8d20ce7a[m
+Author: Sergey Pashkevich <siarheipashkevich@gmail.com>
+Date:   Fri Mar 15 13:19:40 2024 +0300
+
+    [11.x] Removed useless null parameter for env helper (#6373)
+
+[33mcommit 51c4166bfbf0556e808f8f583fb7d91ce0fe6efe[m
+Author: Sergey Pashkevich <siarheipashkevich@gmail.com>
+Date:   Fri Mar 15 13:18:22 2024 +0300
+
+    [11.x] Removed useless null parameter for env helper (cache.php) (#6374)
+
+[33mcommit 92720a575496ea313c5ae9c5ca7e86130e5cdf62[m
+Merge: eee001a3 087543a4
+Author: Dries Vints <dries@vints.be>
+Date:   Thu Mar 14 14:52:15 2024 +0100
+
+    Merge branch '11.x'
+
+[33mcommit a6ce688ad1a95e541e094571f363259e206d276b[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Thu Mar 14 13:52:07 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 087543a48c35787fa67e4b69b79ae301824adeec[m[33m ([m[1;33mtag: v11.0.3[m[33m)[m
+Author: Dries Vints <dries@vints.be>
+Date:   Thu Mar 14 14:51:29 2024 +0100
+
+    Revert collation change (#6372)
+
+[33mcommit eee001a3dfa9a3f518b2363d6c00de119f26d076[m
+Merge: 52c6ce38 881f890b
+Author: Dries Vints <dries@vints.be>
+Date:   Thu Mar 14 14:11:12 2024 +0100
+
+    Merge branch '11.x'
+    
+    # Conflicts:
+    #       CHANGELOG.md
+
+[33mcommit 881f890b991c15c00d1f93dff4b22b7586ddd377[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Wed Mar 13 16:44:03 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 075c38c9e7933b2a9e1dda6db1c7dece3c2e4617[m[33m ([m[1;33mtag: v11.0.2[m[33m)[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Wed Mar 13 16:43:01 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 79969c99c6456a6d6edfbe78d241575fe1f65594[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Mar 13 11:41:41 2024 -0500
+
+    change mariadb default
+
+[33mcommit 52c6ce38da450c426ea97e578473c064d8f25cf9[m
+Author: Dries Vints <dries@vints.be>
+Date:   Wed Mar 13 15:22:40 2024 +0100
+
+    wip
+
+[33mcommit dd0bf5c5a6e7adc8d084c9f6cdc34f28d2097ea5[m
+Author: Jared Lewis <17649602+jrd-lewis@users.noreply.github.com>
+Date:   Wed Mar 13 08:31:34 2024 -0400
+
+    Update welcome.blade.php (#6363)
+
+[33mcommit d02116597843fe35c6f3e3b15f56c462dc8031c8[m
+Merge: b31cc1b7 e7aa6346
+Author: Dries Vints <dries@vints.be>
+Date:   Wed Mar 13 10:45:30 2024 +0100
+
+    Merge branch '11.x'
+    
+    # Conflicts:
+    #       composer.json
+
+[33mcommit e7aa6346de365ce360f9d5c078139fa57c6f7b96[m
+Author: Zep Fietje <hey@zepfietje.com>
+Date:   Wed Mar 13 10:45:03 2024 +0100
+
+    Remove branch alias from composer.json (#6366)
+    
+    Cleans up composer.json similar to https://github.com/laravel/laravel/pull/6103.
+
+[33mcommit 6ea57d766ffc7948adbf02b6ac63670d43580316[m[33m ([m[1;33mtag: v11.0.1[m[33m)[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Mar 12 18:20:16 2024 +0000
+
+    [11.x] Fixes SQLite driver missing (#6361)
+    
+    * Fixes SQLite driver missing
+    
+    * Workaround missing SQLite extension
+    
+    * Adjusts command
+    
+    * Update composer.json
+
+[33mcommit b31cc1b7e19703d8fb84a805cc98243b4b1d9049[m
+Author: Dries Vints <dries@vints.be>
+Date:   Tue Mar 12 15:36:08 2024 +0100
+
+    [12.x] Prep Laravel v12 (#6357)
+    
+    * Prep Laravel v12
+    
+    * wip
+    
+    * wip
+    
+    * wip
+    
+    * wip
+    
+    * wip
+    
+    * wip
+
+[33mcommit c1fc3a0e69be0a453cfce6bbb105b2b839b55bdb[m[33m ([m[1;33mtag: v11.0.0[m[33m)[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Mar 12 13:52:43 2024 +0000
+
+    Adjusts minimum stability
+
+[33mcommit ec8b74030fed39def7cfc735cdcfa1f3441366b1[m
+Author: Dries Vints <dries@vints.be>
+Date:   Thu Mar 7 15:06:04 2024 +0100
+
+    Prepare 11.x branch
+
+[33mcommit e28752328cf5bcb1d36f3404c17bd8a68b9f03d6[m
+Author: Marcel Pociot <m.pociot@gmail.com>
+Date:   Wed Mar 6 17:09:00 2024 +0100
+
+    Add Laravel Herd (#6356)
+
+[33mcommit 512e86649e6aa9bef45f26e71cffaa603063eb89[m
+Merge: 1ee78493 65cfa718
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Mar 5 17:24:04 2024 +0000
+
+    Merge branch '10.x'
+
+[33mcommit 1ee78493898240a718d7d384811c3d2071924db4[m
+Author: Jason McCreary <jason@pureconcepts.net>
+Date:   Tue Mar 5 11:36:39 2024 -0500
+
+    Add DB_CHARSET + DB_COLLATION (#6355)
+
+[33mcommit dd6777099d757eb714b2dd8b12709ed440e9a1d2[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Feb 28 15:58:11 2024 +0000
+
+    Removes notes
+
+[33mcommit 90a0a16e0a8159387f242d7f19d39957bc61b25f[m
+Author: Jason Beggs <jason@roasted.dev>
+Date:   Wed Feb 28 08:30:00 2024 -0500
+
+    Recompile styles (#6354)
+
+[33mcommit f76b09d21831e94194206bf1153e025107641022[m
+Author: Jason Beggs <jason@roasted.dev>
+Date:   Tue Feb 27 21:10:21 2024 -0500
+
+    Implement L11 welcome page design (#6335)
+    
+    * Implement L11 welcome page design
+    
+    * wip
+    
+    * Remove shop and sponsor links and use more semantic elements
+    
+    * Update screenshots to simplified versions
+    
+    * Update images to use CDN versions and remove images from the repo
+    
+    * Update Home to Dashboard
+    
+    * Small tweaks to match Breeze
+
+[33mcommit 9ec283d28ee3d2fc78c3cdfbea25c60af1188e00[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Sun Feb 25 14:09:51 2024 +0000
+
+    Uses `env` on postmark email commented code as docs (#6350)
+
+[33mcommit f12dd8de265966397deeb7c0d2ca0d9c1997a3f2[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Sun Feb 25 14:08:58 2024 +0000
+
+    Removes broadcasting (#6351)
+
+[33mcommit f437205a5e11e6fd5ea64e4adc30ab155131c79f[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Feb 23 14:35:25 2024 -0600
+
+    slim configuration
+
+[33mcommit 96508d43ec89ef08c30d155f8e3e81be9f52b17e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Feb 23 11:53:06 2024 -0600
+
+    wip
+
+[33mcommit 27907e0181afb84d87ae0f584850741dc2536b77[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 22 20:53:41 2024 -0600
+
+    update env example file
+
+[33mcommit 8172528d3db5804b37a708b96512e7f96f041b2a[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 22 17:04:31 2024 -0600
+
+    use empty cache prefix in env example
+
+[33mcommit 151eac5c1aaa37071c152fcb1f72ed3c38b6db15[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Feb 14 11:46:45 2024 -0600
+
+    remove comments
+
+[33mcommit bf1c2b7a17e3fed418bb6150d755054f5fc93ad7[m
+Author: Joe Dixon <joedixon@users.noreply.github.com>
+Date:   Wed Feb 14 17:32:51 2024 +0000
+
+    [11.x] Adds Reverb config (#6341)
+    
+    * update example env for reverb
+    
+    * remove broadcasting environment variables
+
+[33mcommit d2b3ab2455276e13e0086d02fcf5e869cc893d01[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Feb 13 21:53:33 2024 +0000
+
+    Moves `withProviders` to configure internally (#6340)
+
+[33mcommit 65cfa7188e28b7228d5f144c23b87eb55d5fba11[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Feb 13 17:09:01 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit 059f45ab9eea5c591953318ffa24d7ba5eb843f1[m
+Merge: dc4e89b6 d3287461
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Feb 13 10:24:09 2024 +0000
+
+    Merge branch '10.x'
+
+[33mcommit d3287461e15862d1c7a8f10925988b4f1640d92b[m[33m ([m[1;33mtag: v10.3.3[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 12 20:23:26 2024 -0600
+
+    wip
+
+[33mcommit dc4e89b652548491907fc5b61fe01924b6ea6a5e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Jan 30 15:45:11 2024 -0600
+
+    add bcrypt rounds to env example file
+
+[33mcommit 20261731467a6adc9393189d75b6e2362e1c31c0[m
+Author: Dries Vints <dries@vints.io>
+Date:   Mon Jan 29 15:39:12 2024 +0100
+
+    Update README.md
+
+[33mcommit 7df47a2604543788e2aeb8d6be3c05dbd8e26a0e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jan 24 15:15:09 2024 -0600
+
+    simple health route
+
+[33mcommit 86c7c863d6b6e7c4de1365b84e178e08e4ead86e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jan 24 12:57:48 2024 -0600
+
+    slim bootstrap file
+
+[33mcommit e1d396c6743630dbb5d6a2c31b41df38257e3f05[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jan 24 12:55:08 2024 -0600
+
+    add note to provider file
+
+[33mcommit cde09e632c7d17ec7e690df3c6106e89cecb47be[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Jan 24 15:01:05 2024 +0000
+
+    [11.x] Adjusts default mail environment variables (#6325)
+    
+    * Adjusts default mail environment variables
+    
+    * Update .env.example
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit a186ebf4a9dee199d3e10a0ee42e1f674a422aa6[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Jan 22 16:28:43 2024 -0600
+
+    wip
+
+[33mcommit 1f7e88072e6db0c04671dcde435886834fe5f462[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Mon Jan 22 18:39:23 2024 +0000
+
+    Requires Guzzle on `laravel/framework` (#6324)
+
+[33mcommit 29542470473f3ace357be4171e9592e6b274991f[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Mon Jan 22 16:29:40 2024 +0000
+
+    Fixes `APP_MAINTENANCE_DRIVER` value for testing
+
+[33mcommit 3898059e00f9d855542956da14a2e0a1980148ca[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Jan 21 15:49:03 2024 -0600
+
+    explicit directory
+
+[33mcommit 5955d2e4f97edbce0a26f806b93c7778152a0d67[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sat Jan 20 16:21:58 2024 -0600
+
+    revert quietness
+
+[33mcommit 27a4111fc212661dd37ee53bc9638bb9e588af0b[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sat Jan 20 16:18:36 2024 -0600
+
+    run database migrations quietly on create project
+
+[33mcommit e23c0c1bfddf6b01d2dd3b190de9a86b25bfe7c4[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sat Jan 20 16:02:54 2024 -0600
+
+    SQLite for local dev (#6322)
+    
+    * update values for a sqlite default world
+    
+    * migrate on post create project
+    
+    * touch database
+    
+    * fix typo
+
+[33mcommit b1502f3c0732a5e30da71c0ee73e769138eb6a8a[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jan 17 16:44:19 2024 -0600
+
+    slim comments
+
+[33mcommit 1ad4708ddb66d772dafda794aa73e8f25fbd75a5[m
+Merge: dd60315e 2254e8e3
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Fri Jan 12 13:48:06 2024 +0000
+
+    Merge branch '10.x'
+
+[33mcommit dd60315e9ad725c99d883a668f35cfaa6a1aa8e3[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Thu Jan 11 20:32:05 2024 +0000
+
+    [11.x] Simplify PHP comments (#6316)
+    
+    * Simplifies comments
+    
+    * Apply fixes from StyleCI
+    
+    * Removes non used line
+    
+    * remove some comments
+    
+    ---------
+    
+    Co-authored-by: StyleCI Bot <bot@styleci.io>
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 6292958a6b10e4c1edc63b89bf67896b82cc8ce3[m
+Author: Maarten Buis <buismaarten@outlook.com>
+Date:   Tue Jan 9 22:33:38 2024 +0100
+
+    [11.x] Removed unused using in public/index.php (#6315)
+
+[33mcommit b726807a903cfc8166cbc47f236fdaedbbda760a[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Jan 9 18:23:03 2024 +0000
+
+    Uses Tinker's stable branch
+
+[33mcommit 2254e8e301cfcbf8983c2f7cfa8b7c63549b73c7[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Jan 9 18:22:37 2024 +0000
+
+    Update CHANGELOG
+
+[33mcommit f3b9740d560d93bf916a54606c2aa77889d7c485[m
+Author: Dries Vints <dries@vints.io>
+Date:   Fri Jan 5 14:14:08 2024 +0100
+
+    Move spatie/laravel-ignition to dev dependencies
+
+[33mcommit 1a4d1dc81f7924259885250d011ffad24728cd86[m[33m ([m[1;33mtag: v10.3.2[m[33m)[m
+Author: Jonathan Goode <u01jmg3@users.noreply.github.com>
+Date:   Thu Jan 4 16:47:27 2024 +0000
+
+    Update Axios to latest version (#6313)
+
+[33mcommit 14bc24d2361345b745180e9423edce056fea0791[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Thu Jan 4 16:47:07 2024 +0000
+
+    Adds Laravel Ignition (#6312)
+
+[33mcommit 2529041f38cc92f073e12572684259a21a7dab08[m
+Merge: 13a81bf9 6f6cfb02
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Jan 3 14:04:49 2024 +0000
+
+    Merge branch '10.x'
+
+[33mcommit 13a81bf92100a7637bbb4727a9cbb6a7887088c0[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Jan 3 13:52:33 2024 +0000
+
+    Removes `CreatesApplication` (#6310)
+
+[33mcommit 1674895c04a28b9a179ba1d2ccfd5316727cc313[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Jan 3 13:46:30 2024 +0000
+
+    [11.x] Bumps versions on `composer.json` (#6311)
+    
+    * Bumps minor versions
+    
+    * Uses minor pattern
+    
+    * Uses `1.6.3` for axious
+
+[33mcommit 6f6cfb020414bb084eaffeb910ac013095949e22[m
+Author: Jonathan Goode <u01jmg3@users.noreply.github.com>
+Date:   Thu Dec 28 16:37:47 2023 +0000
+
+    Update Axios to latest version (#6306)
+
+[33mcommit b191f9d08681d6b6cb090303649224bf5973408a[m
+Merge: 9e3fbaa5 0c8372a2
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Dec 27 16:52:21 2023 +0000
+
+    Merge branch '10.x'
+
+[33mcommit 0c8372a2e66595c7a8b9977cc9c145b9ce1df7ac[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Dec 27 16:47:30 2023 +0000
+
+    Reverts `assertOk` change (#6303)
+
+[33mcommit 705f97c5c8a093b520e8ae5c50501ea6528c0be2[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Wed Dec 27 14:41:58 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 9e3fbaa56393d69926abde4e4e72cfda3c051e4d[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Wed Dec 27 14:16:46 2023 +0000
+
+    Uses `CACHE_STORE` instead of `CACHE_DRIVER` (#6302)
+
+[33mcommit 890835b7a13213d09c9f005d06be614204c2ef59[m[33m ([m[1;33mtag: v10.3.1[m[33m)[m
+Author: Ahmed shamim <shaon.cse81@gmail.com>
+Date:   Sat Dec 23 21:57:06 2023 +0600
+
+    [10.x] Add roundrobin transport driver config (#6301)
+    
+    * add roundrobin transport driver config
+    
+    * Update mail.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 07fdfbc8d8d88440634bd1c42075653dbb5df402[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Dec 19 15:18:17 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 647c9bc29e7ff2dd5d3455e925c33445c8400b79[m[33m ([m[1;33mtag: v10.3.0[m[33m)[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Wed Dec 20 01:44:37 2023 +1100
+
+    Update version requirement (#6292)
+
+[33mcommit 5d93ebdb76383c11525714aa1fb06ab234ea8811[m
+Author: Dries Vints <dries@vints.io>
+Date:   Mon Dec 18 17:17:36 2023 +0100
+
+    Revert "Fixes tests failing due database not available (#6297)" (#6299)
+    
+    This reverts commit e15fbbe5479c8ef1938b7145cfc28698eed8e7a8.
+
+[33mcommit 0071cc80c7a0f8087554ce8211579b0cec5c694a[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Dec 18 10:14:00 2023 -0600
+
+    update drivers
+
+[33mcommit e15fbbe5479c8ef1938b7145cfc28698eed8e7a8[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Mon Dec 18 14:27:23 2023 +0000
+
+    Fixes tests failing due database not available (#6297)
+
+[33mcommit 39532486beb2c861761c240ad887876261ac686e[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Dec 18 08:27:09 2023 -0600
+
+    wip
+
+[33mcommit 3f1426a55a56cd7187e8b96b82ff6e97dc0a603f[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Dec 18 08:26:07 2023 -0600
+
+    Revert "Rename migration tables (#6295)" (#6298)
+    
+    This reverts commit b86e53bc71c059c5652373ff83274fdf9a2b4736.
+
+[33mcommit b86e53bc71c059c5652373ff83274fdf9a2b4736[m
+Author: Julius Kiekbusch <jubeki99@gmail.com>
+Date:   Mon Dec 18 15:25:35 2023 +0100
+
+    Rename migration tables (#6295)
+
+[33mcommit db67662ca49c551527627beb969a44e1e470162f[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sat Dec 16 14:39:31 2023 -0600
+
+    update maintenance defaults
+
+[33mcommit feded74d9eea2cde9715b75412ae8e5a5342f52d[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sat Dec 16 14:35:04 2023 -0600
+
+    wip
+
+[33mcommit 4705136d1b90c708097d57f0959802772d65cb69[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Dec 14 09:31:30 2023 -0600
+
+    disable pulse for testing
+
+[33mcommit 3142d3feb916d93683c020189c00f4e89d6ab385[m
+Author: TENIOS <40282681+TENIOS@users.noreply.github.com>
+Date:   Mon Dec 11 15:17:19 2023 +0700
+
+    Use `assertOk()` instead of `assertStatus(200)` (#6287)
+
+[33mcommit e57d15ac8f71ac65eb974b7a535804b6552bf4f1[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Dec 5 19:45:52 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit b7ae61bb43960f2539776742a2126963effb1fbd[m
+Merge: 428a1900 d6a2d8b8
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Nov 30 16:36:08 2023 -0600
+
+    fix conflicts
+
+[33mcommit d6a2d8b837fc86af6ba9f57ea6bd2bac1e386e39[m[33m ([m[1;33mtag: v10.2.10[m[33m)[m
+Author: Fabrice Locher <fabrice.locher@contoweb.ch>
+Date:   Thu Nov 30 23:35:41 2023 +0100
+
+    [10.x] Add partitioned cookie config key (#6257)
+    
+    * [10.x] Add partitioned cookie config key
+    
+    * formatting
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 428a190050866c53043900dee91c579b0fa40768[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Nov 28 14:28:15 2023 -0600
+
+    [11.x] Slim skeleton (#6188)
+    
+    See: https://github.com/laravel/framework/pull/47309
+    
+    # Laravel 11 Skeleton Overview
+    
+    ### General Notes
+    
+    More environment variables have been added to the `.env.example` file.
+    
+    The default `QUEUE_CONNECTION` variable value has been updated to `database` instead of `sync`.
+    
+    The `BROADCAST_DRIVER` and `CACHE_DRIVER` environment variables have been renamed to `BROADCAST_CONNECTION` and `CACHE_STORE`, respectively.
+    
+    The HTTP Kernel has been removed. Configuration that was previously done in this file can be done in the `bootstrap/app.php` file, including registering / replacing middleware.
+    
+    The console kernel has been removed. Schedules can be defined in the console “routes” file. Commands generated by `make:command` are automatically loaded and do not require registration. Additional command loading paths can be registered in the `bootstrap/app.php` file.
+    
+    The exception handler has been removed. Exception handling behavior can be configured in the `bootstrap/app.php` file via `reportable`, `renderable`, `throttle`, and more. Callbacks received by these functions will have their type hints inspected to see if they handle a given exception.
+    
+    The base HTTP controller no longer extends any other classes (requiring new middleware definition feature). No traits are included by default on the base controller. Authorization can be done using facades, or traits can be added manually.
+    
+    All middleware has been removed. Configuration of these middleware’s behavior can be done via static methods on the middleware themselves (see framework notes).
+    
+    The `User` model now utilizes a `casts` method instead of a property. The `HasApiTokens` trait has been removed by default since Sanctum is not installed by default.
+    
+    All service providers except the `AppServiceProvider` have been removed. Policies are auto-discovered and gates can be registered in `AppServiceProvider`. Likewise, events can be registered in `AppServiceProvider`. Routing behavior is now determined / customized in the `bootstrap/app.php` file.
+    
+    New `bootstrap/app.php` file can be used to customize core framework behavior like routing, container bindings, middleware, and exception handling.
+    
+    Sanctum is no longer installed by default (see `install:api`).
+    
+    Configuration files are not present by default. Can be published by `config:publish` command. Default values are present in the framework and application level configuration now cascades with framework definitions, so only customized values need be present in application level configuration files.
+    
+    Migration files have been re-dated to be evergreen. The `password_reset_tokens` table migration has been combined into the `users` table migration file. Likewise, the `jobs` table migration has been combined into a single migration with the `failed_jobs` table.
+    
+    Echo bootstrapping has been removed by default. It is re-inserted by new `install:broadcasting` command.
+    
+    API and channel routes files are not present by default, can be recreated by `install:api` and `install:broadcasting` respectively.
+
+[33mcommit 645e13d69041f8ec32d5e9804f4c59a2571af005[m
+Merge: de6d4f58 73cf5bc5
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Nov 28 13:35:59 2023 -0600
+
+    fix conflicts
+
+[33mcommit 73cf5bc5bcbf8af21d70a41a00473b53e6cc04d4[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Nov 21 02:20:28 2023 +1100
+
+    [10.x] Fixes missing property description (#6275)
+    
+    * Fixes missing property description
+    
+    * Update UserFactory.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 4d3c3a130f5e46d3cbca2efa34dce0c714ccd963[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Nov 14 18:50:10 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit a546b52b3bbbfd06361d9feada3932f95eb5ef82[m[33m ([m[1;33mtag: v10.2.9[m[33m)[m
+Author: Eliezer Margareten <46111162+emargareten@users.noreply.github.com>
+Date:   Mon Nov 13 18:36:45 2023 +0200
+
+    Update package.json (#6272)
+
+[33mcommit de6d4f58ccda1635c24e2bf7d7d69d84e885688d[m
+Merge: 424c99c5 40a7605d
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Nov 6 17:31:18 2023 -0600
+
+    fixing conflicts
+
+[33mcommit 40a7605dc1c5bea2d78fb31472e14b982252a5f2[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Thu Nov 2 13:49:26 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 024c86a24bdc8b02c38d41442f3908aae09f31a7[m[33m ([m[1;33mtag: v10.2.8[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Nov 2 08:42:28 2023 -0500
+
+    Revert "Let database handle default collation (#6241)" (#6266)
+    
+    This reverts commit 74c5a01b09b24950cfcffbbc3bad9c2749f7388b.
+
+[33mcommit c7098938d3a2ee7c24c03b88652b1361d04671f9[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Oct 31 15:25:43 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit ad1c5fe4c2e60e35d123eb4361a0734d51776e45[m[33m ([m[1;33mtag: v10.2.7[m[33m)[m
+Author: hedge-freek <117437674+hedge-freek@users.noreply.github.com>
+Date:   Tue Oct 31 15:38:55 2023 +0100
+
+    Redis maintenance store config example contains an excess space (#6264)
+    
+    Binary operators should be surrounded by space a single space.
+
+[33mcommit 21ad6d6915df7d8b3825e6d7a7f47f716600e87b[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Thu Oct 26 06:32:54 2023 +1100
+
+    Verify algo (#6258)
+
+[33mcommit b0b29e12963d286daaaa5f182d0471aa04fbcd79[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Wed Oct 25 22:29:35 2023 +0800
+
+    [10.x] Update minimum `laravel/sanctum` (#6261)
+    
+    PR #6234 updated the configuration but it depends on Sanctum 3.3. This PR avoids installing Sanctum 3.2 with the new config.
+
+[33mcommit 424c99c5b92bc009753c4b97514c79d076abb128[m
+Author: Julius Kiekbusch <contact@julius-kiekbusch.de>
+Date:   Tue Oct 24 19:03:22 2023 +0200
+
+    Set new Sail constraint (#6260)
+
+[33mcommit 7fe97a165af1b480eed172e7f38c1ca8de7eb2ff[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Wed Oct 25 01:11:07 2023 +1100
+
+    [10.x] Update fixture hash to match testing cost (#6259)
+    
+    * Update fixture hash to match testing cost
+    
+    * Conditionally use lower cost in tests
+    
+    * use hash facade and memoize
+    
+    * remove import
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 036ea83da2afba28163a1f959a227cda7bd14a88[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Tue Oct 17 14:17:21 2023 +0100
+
+    Uses `actions/checkout@v4`
+
+[33mcommit 96fb350fb5bc7d57fd86f9a6e45b1e41bbf95824[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Fri Oct 13 20:51:55 2023 +0100
+
+    Re-adds tinker (#6254)
+
+[33mcommit 645ab9030f2598050d7a71d4dcdd1e496e70babd[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Thu Oct 12 15:39:09 2023 +0100
+
+    Fixes build of `dev-master` (#6252)
+
+[33mcommit 25070a3ffb175c15b59cd7f12289a9648165bba3[m
+Author: Martin Bastien <bastien.martin@gmail.com>
+Date:   Tue Sep 26 21:37:09 2023 -0400
+
+    Fix typo in the comment for token prefix (sanctum config) (#6248)
+
+[33mcommit 960ea7b325e3ec43c8e795da307f354e61941a66[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Sep 25 16:38:15 2023 -0500
+
+    Update README.md
+
+[33mcommit 78243dda899443d478e2a555f8c94d023a2db633[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Sep 25 16:29:45 2023 -0500
+
+    Update README.md
+
+[33mcommit 8e5f0e5d00c2398da45404fdcd052c9518a4622f[m
+Author: Julius Kiekbusch <contact@julius-kiekbusch.de>
+Date:   Fri Sep 22 20:03:48 2023 +0200
+
+    Use 12 bcrypt rounds for password in UserFactory (#6247)
+
+[33mcommit 540cec038fe3b2ae6859e0f26d12caf839082d03[m
+Author: Stephen Rees-Carter <stephen@rees-carter.net>
+Date:   Sat Sep 23 01:06:29 2023 +1000
+
+    Increase bcrypt rounds to 12 (#6245)
+
+[33mcommit 88695a7cf4b1fb2a248d129f8b53400ec65ddf8f[m
+Author: Julius Kiekbusch <contact@julius-kiekbusch.de>
+Date:   Wed Sep 20 15:58:12 2023 +0200
+
+    Add PHP 8.3 to Tests Matrix (#6244)
+
+[33mcommit 74c5a01b09b24950cfcffbbc3bad9c2749f7388b[m
+Author: Julius Kiekbusch <contact@julius-kiekbusch.de>
+Date:   Tue Sep 19 16:15:38 2023 +0200
+
+    Let database handle default collation (#6241)
+
+[33mcommit 96d3ecf5c26577530306374eb8e164fdc7425978[m
+Author: Julius Kiekbusch <jubeki99@gmail.com>
+Date:   Sat Sep 16 00:29:57 2023 +0200
+
+    Revert "Fix incorrect collation for MySQL 8 (#6239)" (#6240)
+    
+    This reverts commit c088b3b7655fd2bc8c53d883f90f53e65bacc3e7.
+
+[33mcommit c088b3b7655fd2bc8c53d883f90f53e65bacc3e7[m
+Author: Raj Siva-Rajah <5361908+binaryfire@users.noreply.github.com>
+Date:   Fri Sep 15 22:48:41 2023 +0930
+
+    Fix incorrect collation for MySQL 8 (#6239)
+
+[33mcommit 8dc6ced55ba6cfea7e973b1edf9a6d49751b1d8d[m
+Merge: 17f94e30 bfead27a
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Sep 13 16:03:34 2023 -0500
+
+    Merge branch '10.x'
+
+[33mcommit bfead27a2880347b0b5bfcf456a3691e9ba54ac0[m
+Author: Ahmed Fathy <fathy.dev@gmail.com>
+Date:   Thu Sep 7 18:48:35 2023 +0300
+
+    [10.x] Update sanctum config file (#6234)
+    
+    * update sanctum config file
+    
+    * Update sanctum.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 17f94e3081e3b399d76a0b809009f1767fec6756[m
+Merge: e96d21dd 32ecad53
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Aug 31 12:06:32 2023 -0500
+
+    fix conflicts
+
+[33mcommit 32ecad53a9a59d7ad33dbfd6352a5ea0fd0da2cf[m
+Author: Ninja <yazjallad@gmail.com>
+Date:   Mon Aug 21 12:34:28 2023 -0700
+
+    Postmark mailer configuraiton update. (#6228)
+    
+    * Update mail.php
+    
+    ref https://github.com/craigpaul/laravel-postmark/issues/141
+    
+    * Update mail.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 56c6f6b6b64a00c529e35e5af139cb3a5fc0ae21[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Aug 15 15:27:37 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 36047268f130477fa17270e26b1bb5991d781265[m[33m ([m[1;33mtag: v10.2.6[m[33m)[m
+Author: Andréas Lundgren <1066486+adevade@users.noreply.github.com>
+Date:   Thu Aug 10 09:19:31 2023 +0200
+
+    Bump `laravel-vite-plugin` to latest version (#6224)
+
+[33mcommit 04a8e8553e6bf0ed54f5136949d7152df025dd91[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Jul 11 14:38:41 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit f419821bd8cbc736ac6f9b2fce75a4e373a4b49f[m[33m ([m[1;33mtag: v10.2.5[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Jun 30 10:18:14 2023 -0500
+
+    shorten directories
+
+[33mcommit 6c1a39b5b38eebbb43f7a2ae28c73c155f506d21[m
+Author: Benedikt Franke <benedikt@franke.tech>
+Date:   Fri Jun 30 17:16:51 2023 +0200
+
+    Omit default values for suffix in phpunit.xml (#6210)
+    
+    The values specified for `suffix` are their respective defaults and can be omitted.
+
+[33mcommit e96d21dd2d655ed623ab7b0b4e07f9e9ee3418fd[m
+Author: Jacob Müller <jacob.mueller.elz@gmail.com>
+Date:   Mon Jun 26 23:40:07 2023 +0200
+
+    [11.x]: Use `ses-v2` as default `ses` mail transport (#6205)
+
+[33mcommit 3ac233abb21e29c94727c56c027067f3da9cbe32[m
+Author: Domantas Petrauskas <hello@domnantas.lt>
+Date:   Thu Jun 22 02:07:13 2023 +0300
+
+    Allow accessing APP_NAME in Vite (#6204)
+
+[33mcommit f31772234895a7e317be2a87edc9a453aff474d1[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Jun 20 15:53:51 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 84991f23011dfde4bc3ae3db04343c3afb3bc122[m[33m ([m[1;33mtag: v10.2.4[m[33m)[m
+Author: Eliezer Margareten <46111162+emargareten@users.noreply.github.com>
+Date:   Wed Jun 7 16:20:56 2023 +0300
+
+    Update Kernel.php (#6193)
+
+[33mcommit a410a5af42385470fe9c5eec098acee4fb4de7fa[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Jun 6 14:54:05 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit a5fddf7bc3298d3987c7c94f597c68fa6a29c604[m
+Merge: b1011d16 589b36d0
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Jun 1 13:51:23 2023 -0500
+
+    fix conflicts
+
+[33mcommit b1011d168745b6087a8d8b2bb1e283684b339f60[m
+Author: Dries Vints <dries@vints.io>
+Date:   Fri Feb 17 20:58:03 2023 +0100
+
+    Laravel v11 compatible versions
+
+[33mcommit 64173fbedfb96896b094e70be27a104249f2c22e[m
+Author: Dries Vints <dries@vints.io>
+Date:   Tue Feb 14 16:52:25 2023 +0100
+
+    dev stability
+
+[33mcommit 64f3d149cb847ece61bbc67f3b4da3b528b74bd2[m
+Author: Dries Vints <dries@vints.io>
+Date:   Tue Feb 14 16:50:55 2023 +0100
+
+    Prepare v11
+
+[33mcommit 85203d687ebba72b2805b89bba7d18dfae8f95c8[m[33m ([m[1;33mtag: v10.2.3[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Jun 1 11:12:25 2023 -0500
+
+    update description
+
+[33mcommit 812bfb6911c225df3921c7874e6b373eb4c8ddae[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Wed May 24 13:24:31 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit a6bfbc7f90e33fd6cae3cb23f106c9689858c3b5[m[33m ([m[1;33mtag: v10.2.2[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue May 23 16:45:40 2023 -0500
+
+    add lock path
+
+[33mcommit fb8e9cee79bc3cebff9ee20068d95eefbb281aa7[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue May 16 15:38:55 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 953eae29387eb962b5e308a29f9a6d95de837ab0[m[33m ([m[1;33mtag: v10.2.1[m[33m)[m
+Author: Jesse Leite <jesseleite@gmail.com>
+Date:   Fri May 12 14:39:56 2023 -0400
+
+    Bring back cluster config option, as required by pusher-js v8.0. (#6174)
+
+[33mcommit 7e0a2db2e072436dd00a4fa129aebffb3c08d877[m
+Author: Eliezer Margareten <46111162+emargareten@users.noreply.github.com>
+Date:   Wed May 10 21:51:00 2023 +0300
+
+    Add hashed cast to user password (#6171)
+    
+    * Add `hashed` cast to user password
+    
+    * Update composer.json
+
+[33mcommit 90acdfe92be3c471f3fa2b599f8cabda43dbf245[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue May 9 14:24:52 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 150e379ce2f2af2205ce87839565acb8ac6ace2e[m[33m ([m[1;33mtag: v10.2.0[m[33m)[m
+Author: Saya <379924+chu121su12@users.noreply.github.com>
+Date:   Sat May 6 01:42:51 2023 +0800
+
+    Update mail.php (#6170)
+
+[33mcommit d3b2eada8618f8608c755137acc1741ec74771dc[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Fri May 5 01:02:09 2023 +1000
+
+    Migrate to modules (#6090)
+
+[33mcommit d14bdeeb6db121cc7d181ce5497211612ce4bc10[m
+Author: Ayman Atmeh <ayman.atmeh@gmail.com>
+Date:   Wed Apr 26 16:39:12 2023 +0300
+
+    Update welcome.blade.php (#6163)
+    
+    "Set z-index to 10 for Login/Register container to ensure it appears on top of other elements"
+
+[33mcommit 5070934fc5fb8bea7a4c8eca44a6b0bd59571be7[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Apr 18 16:22:10 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit ec38e3bf7618cda1b44c79f907590d4f97749d96[m[33m ([m[1;33mtag: v10.1.1[m[33m)[m
+Author: Julius Kiekbusch <jubeki99@gmail.com>
+Date:   Tue Apr 18 18:21:20 2023 +0200
+
+    Fix laravel/framework constraints for Default Service Providers (#6160)
+
+[33mcommit 05a41f8a4bf428070cb5cbe0d4f94b85ee6d9bd7[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Apr 18 14:05:48 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit badcf92f91c90a43c6d559002a5be19cfce9eb97[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Apr 18 14:05:26 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit ebf9d30bf3cf41c376e5b2e1ba1b51882d200848[m[33m ([m[1;33mtag: v10.1.0[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sat Apr 15 16:53:39 2023 -0500
+
+    [10.x] Minor skeleton slimming (#6159)
+    
+    * remove rate limiter from route provider by default
+    
+    * remove policy place holder
+    
+    * remove broadcast skeleton in favor of new provider in core
+    
+    * use default provider collection
+    
+    * Remove unnecessary properties from exception handler.
+    
+    * add back broadcast provider
+    
+    * update comment
+    
+    * add rate limiting
+    
+    * Apply fixes from StyleCI
+    
+    * fix formatting
+    
+    ---------
+    
+    Co-authored-by: StyleCI Bot <bot@styleci.io>
+
+[33mcommit 64685e6f206bed04d7785e90a5e2e59d14966232[m[33m ([m[1;33mtag: v10.0.7[m[33m)[m
+Author: Nuno Maduro <enunomaduro@gmail.com>
+Date:   Fri Apr 14 15:03:05 2023 +0100
+
+    Adds `phpunit/phpunit@10.1` support (#6155)
+
+[33mcommit 7cc6699c3d118a5d258a9b23a91478352e26a7d8[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Apr 11 17:17:21 2023 -0500
+
+    clean up comment
+
+[33mcommit a25f40590b302b7673ca805eab83aaabfaee1b26[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Apr 11 16:36:22 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 0bcd012dc0abf47e5eee45daa6bfc0222e2971f3[m[33m ([m[1;33mtag: v10.0.6[m[33m)[m
+Author: André Olsen <andreolsen4200@gmail.com>
+Date:   Wed Apr 5 17:03:08 2023 +0200
+
+    Add job batching options to Queue configuration file (#6149)
+    
+    * add batching config options to queue config file
+    
+    This adds the batching configuration options to the queue configuration skeleton, so everyone has a faster way of knowing that it's possible to customize the database connection and table options.
+    
+    * formatting
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit 9184b212130a1eaf95513198f27569f6b9126602[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Mar 28 18:05:26 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 9ae75b58a1ffc00ad36bf1e877fe2bf9ec601b82[m[33m ([m[1;33mtag: v10.0.5[m[33m)[m
+Author: Alan Poulain <contact@alanpoulain.eu>
+Date:   Wed Mar 8 17:57:09 2023 +0100
+
+    [10.x] Add replace_placeholders to log channels (#6139)
+    
+    * add replace_placeholders to log channels
+    
+    * Update logging.php
+    
+    ---------
+    
+    Co-authored-by: Taylor Otwell <taylor@laravel.com>
+
+[33mcommit d39fb35b4d1192e434b77240547c9a0896aae7e2[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Thu Mar 2 16:19:33 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 22df611a2fe1e95e262643382d583ee0dbbca360[m[33m ([m[1;33mtag: v10.0.4[m[33m)[m
+Author: Nico <3315078+nicolus@users.noreply.github.com>
+Date:   Mon Feb 27 19:37:48 2023 +0100
+
+    Specify facility in the syslog driver config (#6130)
+
+[33mcommit a337b99dfbc9e5c8d01d3358844cbd57adf6096a[m
+Author: Izzudin Anuar <izzudinanuar96@gmail.com>
+Date:   Sun Feb 26 07:07:54 2023 +1300
+
+    Fix typo (#6128)
+
+[33mcommit 9507bf2b2ad9656eabbb7176b554791c5c402026[m
+Author: driesvints <driesvints@users.noreply.github.com>
+Date:   Tue Feb 21 15:35:21 2023 +0000
+
+    Update CHANGELOG
+
+[33mcommit 37ab32cf760406f767f6a278748546214585c93f[m[33m ([m[1;33mtag: v10.0.3[m[33m)[m
+Author: Dries Vints <dries@vints.io>
+Date:   Tue Feb 21 16:33:51 2023 +0100
+
+    Update CHANGELOG.md
+
+[33mcommit 63202ceb0f735353cc8becf593200ced6e3b9ba8[m
+Author: TENIOS <40282681+TENIOS@users.noreply.github.com>
+Date:   Tue Feb 21 14:49:27 2023 +0700
+
+    Update .gitignore (#6123)
+    
+    Reorder
+
+[33mcommit e121424f90b3acc0358c5c94dace6524428f74a8[m
+Author: Tim MacDonald <hello@timacdonald.me>
+Date:   Mon Feb 20 22:05:45 2023 +1100
+
+    Reverts #6089 (#6122)
+
+[33mcommit 330995f6bdb8242963f8ef45ffbe866261ab1f38[m
+Author: Ngô Quốc Đạt <datlechin@gmail.com>
+Date:   Sun Feb 19 03:54:42 2023 +0700
+
+    Remove redundant `@return` docblock in UserFactory (#6119)

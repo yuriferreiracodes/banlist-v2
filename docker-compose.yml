@@ -1,0 +1,49 @@
+services:
+    acme_service_company:
+        container_name: acme_service_company
+        build:
+            context: .
+            args:
+                UID: ${UID}
+                GID: ${GID}
+        user: "${UID}:${GID}"
+        working_dir: /var/www
+        volumes:
+            - ./:/var/www
+        image: laravel-app
+        restart: unless-stopped
+        networks:
+            - net
+        depends_on:
+            - acme_company_db
+
+    nginx:
+        container_name: nginx
+        image: nginx:alpine
+        restart: unless-stopped
+        ports:
+            - "8080:80"
+            - "8443:443"
+        volumes:
+            - ./:/var/www
+            - ./docker/nginx/:/etc/nginx/conf.d/
+        depends_on:
+            - acme_service_company
+        networks:
+            - net
+
+    acme_company_db:
+        container_name: acme_company_db
+        image: mysql:5.7.22
+        restart: unless-stopped
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: acme_company
+        volumes:
+            - ./docker/mysql/dbdata:/var/lib/mysql
+        networks:
+            - net
+
+networks:
+    net:
+        driver: bridge
