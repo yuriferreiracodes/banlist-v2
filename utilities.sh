@@ -15,19 +15,19 @@ case $choice in
     docker-compose up -d --build
 
     echo "⏳ Waiting for MySQL to be ready..."
-    until docker exec acme_company_db mysql -uroot -proot -e "USE acme_company" &>/dev/null; do
+    until docker exec banlist_v2_db mysql -uroot -proot -e "USE banlist_v2" &>/dev/null; do
       sleep 2
       echo "⏱️  Still waiting for database..."
     done
 
     echo "📦 Installing Composer dependencies..."
-    docker exec -it acme_service_company composer install
+    docker exec -it banlist_v2 composer install
 
     echo "🔐 Generating Laravel app key..."
-    docker exec -it acme_service_company php artisan key:generate
+    docker exec -it banlist_v2 php artisan key:generate
 
     echo "🧰 Running migrations and seeders..."
-    docker exec -it acme_service_company php artisan migrate:fresh --seed
+    docker exec -it banlist_v2 php artisan migrate:fresh --seed
 
     echo "✅ Project is ready at: http://localhost:8080"
     ;;

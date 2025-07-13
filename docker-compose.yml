@@ -1,6 +1,6 @@
 services:
-    acme_service_company:
-        container_name: acme_service_company
+    banlist_v2:
+        container_name: banlist_v2
         build:
             context: .
             args:
@@ -15,7 +15,7 @@ services:
         networks:
             - net
         depends_on:
-            - acme_company_db
+            - banlist_v2_db
 
     nginx:
         container_name: nginx
@@ -28,17 +28,17 @@ services:
             - ./:/var/www
             - ./docker/nginx/:/etc/nginx/conf.d/
         depends_on:
-            - acme_service_company
+            - banlist_v2
         networks:
             - net
 
-    acme_company_db:
-        container_name: acme_company_db
+    banlist_v2_db:
+        container_name: banlist_v2_db
         image: mysql:5.7.22
         restart: unless-stopped
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: acme_company
+            MYSQL_DATABASE: banlist_v2
         volumes:
             - ./docker/mysql/dbdata:/var/lib/mysql
         networks:
